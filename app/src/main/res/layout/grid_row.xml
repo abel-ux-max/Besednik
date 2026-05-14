@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal">
+
+    <TextView android:id="@+id/cell_0" style="@style/WordleCell" />
+    <TextView android:id="@+id/cell_1" style="@style/WordleCell" android:layout_marginStart="4dp"/>
+    <TextView android:id="@+id/cell_2" style="@style/WordleCell" android:layout_marginStart="4dp"/>
+    <TextView android:id="@+id/cell_3" style="@style/WordleCell" android:layout_marginStart="4dp"/>
+    <TextView android:id="@+id/cell_4" style="@style/WordleCell" android:layout_marginStart="4dp"/>
+
+</LinearLayout>
