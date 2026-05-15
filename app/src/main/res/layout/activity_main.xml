@@ -5,7 +5,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/white"
+    android:background="@color/gray"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -29,35 +29,35 @@
             layout="@layout/grid_row"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="2dp" />
 
         <include
             android:id="@+id/row_2"
             layout="@layout/grid_row"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="2dp" />
 
         <include
             android:id="@+id/row_3"
             layout="@layout/grid_row"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="2dp" />
 
         <include
             android:id="@+id/row_4"
             layout="@layout/grid_row"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="2dp" />
 
         <include
             android:id="@+id/row_5"
             layout="@layout/grid_row"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="4dp" />
+            android:layout_marginTop="2dp" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,11 +78,12 @@
             <Button style="@style/KeyboardButton" android:text="@string/key_e" android:id="@+id/key_e"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_r" android:id="@+id/key_r"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_t" android:id="@+id/key_t"/>
-            <Button style="@style/KeyboardButton" android:text="@string/key_y" android:id="@+id/key_y"/>
+            <Button style="@style/KeyboardButton" android:text="@string/key_z" android:id="@+id/key_z"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_u" android:id="@+id/key_u"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_i" android:id="@+id/key_i"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_o" android:id="@+id/key_o"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_p" android:id="@+id/key_p"/>
+            <Button style="@style/KeyboardButton" android:text="@string/key_š" android:id="@+id/key_š"/>
         </LinearLayout>
 
         <LinearLayout
@@ -100,6 +101,8 @@
             <Button style="@style/KeyboardButton" android:text="@string/key_j" android:id="@+id/key_j"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_k" android:id="@+id/key_k"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_l" android:id="@+id/key_l"/>
+            <Button style="@style/KeyboardButton" android:text="@string/key_č" android:id="@+id/key_č"/>
+            <Button style="@style/KeyboardButton" android:text="@string/key_ž" android:id="@+id/key_ž"/>
         </LinearLayout>
 
         <LinearLayout
@@ -108,15 +111,15 @@
             android:gravity="center"
             android:layout_marginTop="4dp"
             android:orientation="horizontal">
-            <Button style="@style/KeyboardButton" android:layout_width="0dp" android:layout_weight="1.5" android:text="ENTER" android:id="@+id/key_enter"/>
-            <Button style="@style/KeyboardButton" android:text="@string/key_z" android:id="@+id/key_z"/>
+            <Button style="@style/KeyboardButton" android:layout_width="0dp" android:layout_weight="1.8" android:text="@string/key_enter" android:id="@+id/key_enter"/>
+            <Button style="@style/KeyboardButton" android:text="@string/key_y" android:id="@+id/key_y"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_x" android:id="@+id/key_x"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_c" android:id="@+id/key_c"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_v" android:id="@+id/key_v"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_b" android:id="@+id/key_b"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_n" android:id="@+id/key_n"/>
             <Button style="@style/KeyboardButton" android:text="@string/key_m" android:id="@+id/key_m"/>
-            <Button style="@style/KeyboardButton" android:layout_width="0dp" android:layout_weight="1.5" android:text="DEL" android:id="@+id/key_del"/>
+            <Button style="@style/KeyboardButton" android:layout_width="0dp" android:layout_weight="1.8" android:text="@string/key_del" android:id="@+id/key_del"/>
         </LinearLayout>
 
     </LinearLayout>
