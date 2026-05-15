@@ -15,14 +15,36 @@
         android:padding="24dp"
         android:gravity="center">
 
-        <TextView
-            android:id="@+id/tv_dialog_title"
+        <FrameLayout
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="@string/win_title"
-            android:textColor="@color/white"
-            android:textSize="24sp"
-            android:textStyle="bold" />
+            android:layout_gravity="center">
+
+            <!-- Ozadje (kot senca ali floating plast) -->
+            <TextView
+                android:id="@+id/tv_dialog_title_clone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/win_title"
+                android:textColor="@color/colorCorrect"
+                android:textSize="34sp"
+                android:textStyle="bold" />
+
+            <!-- Sprednji del (glavni tekst) -->
+            <TextView
+                android:id="@+id/tv_dialog_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="@string/win_title"
+                android:textColor="@color/white"
+                android:textSize="32sp"
+                android:alpha="0.5"
+                android:textStyle="bold" />
+
+        </FrameLayout>
+
 
         <TextView
             android:id="@+id/tv_dialog_message"
@@ -40,7 +62,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="8dp"
             android:text="Želite igrati ponovno?"
-            android:textColor="@color/lightgray"
+            android:textColor="@color/white"
             android:textSize="14sp" />
 
         <LinearLayout
@@ -57,6 +79,7 @@
                 android:layout_weight="1"
                 android:layout_marginEnd="4dp"
                 android:text="@string/exit"
+                android:backgroundTint="@color/lightgray"
                 android:textColor="@color/white" />
 
             <Button
