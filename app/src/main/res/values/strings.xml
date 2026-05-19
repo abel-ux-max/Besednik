@@ -35,7 +35,7 @@
     <string name="key_m">M</string>
 
     <string name="key_enter">POTRDI</string>
-    <string name="key_del">BRISI</string>
+    <string name="key_del">BRIŠI</string>
 
     <!-- Game Messages -->
     <string name="not_enough_letters">Premalo črk</string>
